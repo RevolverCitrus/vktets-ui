@@ -1,0 +1,27 @@
+@font-face {
+  font-family: "iconfont"; /* Project id 4031441 */
+  src: url('iconfont.woff2?t=1682324113162') format('woff2'),
+       url('iconfont.woff?t=1682324113162') format('woff'),
+       url('iconfont.ttf?t=1682324113162') format('truetype');
+}
+
+[class*='vk4-icon'] {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.vk4-icon-view:before {
+  content: "\e847";
+}
+
+.vk4-icon-close2:before {
+  content: "\e6dd";
+}
+
+.vk4-icon-sousuo:before {
+  content: "\e693";
+}
+
